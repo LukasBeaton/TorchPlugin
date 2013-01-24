@@ -1,5 +1,6 @@
 # Cordova (previously PhoneGap) Torch Plugin #
 created by Shazron Abdullah
+
 updated by Lukas Beaton
 
 ## Adding the Plugin to your project ##
