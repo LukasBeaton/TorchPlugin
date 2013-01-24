@@ -10,7 +10,11 @@ Using this plugin requires [iOS Cordova 2.3.0](http://phonegap.com/download/) an
 1. Add the "AVFoundation" framework to your project, and set it to be weak linked (see "Weak Linking the AVFoundation Framework" section below). 
 2. Add the .h and .m files to your Plugins folder in your project
 3. Add the .js files to your "www" folder on disk, and add reference(s) to the .js files as <link> tags in your html file(s)
-4. Add the plugin to your config.xml file in xCode: <plugin name="Torch" value="Torch" />
+4. Add the plugin to your config.xml file in xCode: 
+
+### Example
+  <plugin name="Torch" value="Torch" />
+
 5. See the sample code in "index.html" for an example use
 
 ## Weak Linking the AVFoundation Framework ##
