@@ -1,14 +1,16 @@
-# PhoneGap Torch Plugin #
-by Shazron Abdullah
+# Cordova (previously PhoneGap) Torch Plugin #
+created by Shazron Abdullah
+updated by Lukas Beaton
 
 ## Adding the Plugin to your project ##
 
-Using this plugin requires [iOS PhoneGap](http://github.com/phonegap/phonegap-iphone) and AVFoundation. AVFoundation requires the [iOS 4 SDK](http://developer.apple.com/ios).
+Using this plugin requires [iOS Cordova 2.3.0](http://phonegap.com/download/) and AVFoundation. AVFoundation requires the [iOS 6 SDK](http://developer.apple.com/ios).
 
 1. Add the "AVFoundation" framework to your project, and set it to be weak linked (see "Weak Linking the AVFoundation Framework" section below). 
 2. Add the .h and .m files to your Plugins folder in your project
 3. Add the .js files to your "www" folder on disk, and add reference(s) to the .js files as <link> tags in your html file(s)
-4. See the sample code in "index.html" for an example use
+4. Add the plugin to your config.xml file in xCode: <plugin name="Torch" value="Torch" />
+5. See the sample code in "index.html" for an example use
 
 ## Weak Linking the AVFoundation Framework ##
 
