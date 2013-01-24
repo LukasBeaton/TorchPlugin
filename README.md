@@ -5,7 +5,7 @@ updated by Lukas Beaton
 
 ## Adding the Plugin to your project ##
 
-Using this plugin requires [iOS Cordova 2.3.0](http://phonegap.com/download/) and AVFoundation. AVFoundation requires the [iOS 4=< SDK](http://developer.apple.com/ios).
+Using this plugin requires [iOS Cordova 2.3.0](http://phonegap.com/download/) and AVFoundation. AVFoundation requires the [iOS 4<= SDK](http://developer.apple.com/ios).
 
 1. Add the "AVFoundation" framework to your project, and set it to be weak linked (see "Weak Linking the AVFoundation Framework" section below). 
 2. Add the .h and .m files to your Plugins folder in your project
